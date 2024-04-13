@@ -6,7 +6,9 @@
 model_configs = {
 	"name": 'MyModel',
 	"save_dir": '../saved_models/',
-	"depth": 2,
+	"num_of_classes": 10,
+    "stack_lengths": [5, 7, 4],
+    "first_num_filters": 64
 }
 
 training_configs = {
